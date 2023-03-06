@@ -24,5 +24,19 @@ $(document).ready(function () {
             }
         ]
     });
+
+    $('.similar_block_slider').slick({
+      dots: false,
+      infinite: true,
+      arrows: true,
+      variableWidth: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      speed: 500,
+      autoplaySpeed: 1000,
+      cssEase: 'linear',
+      prevArrow: $('.similar_block_nav_arrows_prev'),
+      nextArrow: $('.similar_block_nav_arrows_next')
+    });
     
 });
